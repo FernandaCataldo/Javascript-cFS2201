@@ -21,8 +21,8 @@ typeof nationality // devuelve "undefined"
 typeof hobbies // devuelve "object" - porque null es un objeto
 
 // Ejercicio
-const nombre = "Maximiliano"
-let edad = 35
+const nombre = "Fernanda"
+let edad = 25
 let viveEnAmerica = true
 
 console.log(nombre)
