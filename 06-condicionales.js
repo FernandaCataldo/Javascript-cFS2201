@@ -17,13 +17,13 @@ if(nota < 4){
 
 const edad= prompt(¿Cuál es tu edad?)
 
-if (edad<16){
-    console.log("No puede entrar")
-    alert("No puede entrar")
-}else if (edad>=16||edad<18){
-    console.log("Puede ingresar al club pero no puede pasar al bar")
+if (edad>18){
+    
+    alert("Puede ingresar al club y al bar")
+}else if (eda>=16){
+   
     alert("Puede ingresar al club pero no puede pasar al bar")
 }else{
-    console.log("Puede ingresar al club y al bar")
-    alert("Puede ingresar al club y al bar")
+    
+    alert("No puede entrar")
 }
